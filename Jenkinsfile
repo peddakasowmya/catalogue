@@ -10,7 +10,7 @@ pipeline {
                 sh "node_modules/jslint/bin/jslint.js server.js"
             }
         }
-        stage('Static Code Analysis') {
+        stage('Static Code Analysis') {     // security code checks
             steps {
                 sh "echo Static Checks ...."
             }
