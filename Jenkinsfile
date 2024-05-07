@@ -1,7 +1,7 @@
 @Library('shared-library') _
 
 
-/*
+
 pipeline { 
     agent {
         labels 'ws'
@@ -21,4 +21,5 @@ pipeline {
         }
     }
 }
- */
+ 
+ 
