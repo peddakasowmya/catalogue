@@ -1,6 +1,6 @@
 pipeline { 
     agent {
-        labels 'ws'
+        label 'ws'
     }
     stages {
         stage('Lint Checks') {      // Style checks
