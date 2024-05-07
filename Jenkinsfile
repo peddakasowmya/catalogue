@@ -3,7 +3,7 @@ pipeline {
         labels 'ws'
     }
     stages {
-        stage('Lint Checks') {
+        stage('Lint Checks') {      // Style checks
             steps {
                 sh "echo Installing Lint Checker"
                 sh "npm i jslint"
